@@ -1,0 +1,37 @@
+---
+title: "Aura-Vision - On-Device Multimodal Emotion Recognition"
+publishedAt: "2025-09-23"
+summary: "An interactive mobile application that provides real-time feedback on the emotional sentiment of conversations by analyzing speech and facial expressions on-device for privacy and low latency."
+team:
+  - name: "Abhishek Sukhadiya"
+    role: "Software Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://linkedin.com/in/abhishek-sukhadiya-9358a5190"
+
+link: "https://github.com/ARSukhadiya/Aura-Vision"
+---
+
+## Project Overview
+
+Aura-Vision is an interactive mobile application that provides real-time feedback on the emotional sentiment of conversations. This tool assists individuals who may have difficulty perceiving social cues by analyzing both speech (content and tone) and facial expressions (visual cues). The core innovation is running the model efficiently on-device to ensure user privacy and low latency.
+
+## Key Features
+
+- **Real-time Multimodal Analysis**: Combines speech recognition and facial expression analysis.
+- **On-Device Processing**: Ensures privacy and low latency.
+- **Accessibility Focus**: Designed for users with social cue perception difficulties.
+- **Interactive Feedback**: Real-time emotion display with emojis and text labels.
+
+## Architecture
+
+### Python ML Pipeline
+- **Data Preprocessing**: Audio and video preprocessing for model training.
+- **Model Training**: Multimodal fusion of speech and facial expression models.
+- **Model Optimization**: Quantization and pruning for mobile deployment.
+- **Core ML Conversion**: Export trained models for iOS integration.
+
+### iOS Swift Application
+- **Real-time Capture**: Audio from microphone and video from camera.
+- **Model Integration**: Core ML integration for on-device inference.
+- **User Interface**: Live camera feed with real-time transcription and emotion feedback.
+- **Accessibility Features**: Designed for users with diverse needs.
