@@ -14,7 +14,7 @@ const person: Person = {
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to {person.firstName}&apos;s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
 
@@ -66,7 +66,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Abhishek, a software engineer building scalable backends for modern AI products. 
+      I&apos;m Abhishek, a software engineer building scalable backends for modern AI products. 
       I spend my free time exploring generative AI and shipping my own full-stack projects.
       {/* I'm Selene, a design engineer at{" "}
       <Logo
